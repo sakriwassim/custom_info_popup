@@ -10,14 +10,11 @@ A Flutter package that provides a customizable popup widget to display additiona
 - Supports custom content inside the popup (text, images, or any widget).
 - Easily configurable splash radius, padding, and shadow color for a better user experience.
 
-## Demo 📸
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/0ab0a4b5-acfc-4320-927d-1cbd6ce1ddd5" width="30%"></td>
-    <td><img src="https://github.com/user-attachments/assets/0274c4eb-9fbb-46af-beda-f2f8b641c3b5" width="30%"></td>
-  </tr>
-</table>
+## Demo
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/user-attachments/assets/0ab0a4b5-acfc-4320-927d-1cbd6ce1ddd5" width="30%">
+  <img src="https://github.com/user-attachments/assets/0274c4eb-9fbb-46af-beda-f2f8b641c3b5" width="30%">
+</div>
 
 ## Installation
 
