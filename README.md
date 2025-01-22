@@ -1,6 +1,6 @@
 # CustomInfoPopup
 
-A Flutter package that provides a customizable popup widget to display additional information when clicked. You can customize the appearance, content, and trigger of the popup.
+aA Flutter package that provides a customizable popup widget to display additional information when clicked. You can customize the appearance, content, and trigger of the popup.
 
 ## Features
 
