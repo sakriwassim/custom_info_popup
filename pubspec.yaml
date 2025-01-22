@@ -1,6 +1,6 @@
 name: custom_info_popup
 description: "A Flutter package for creating customizable and flexible info popups."
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/sakriwassim/custom_info_popup.git
 
 environment:

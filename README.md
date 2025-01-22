@@ -11,9 +11,10 @@ A Flutter package that provides a customizable popup widget to display additiona
 - Easily configurable splash radius, padding, and shadow color for a better user experience.
 
 ## Demo
-![Screenrecorder-2025-01-22-19-34-32-178](https://github.com/user-attachments/assets/0ab0a4b5-acfc-4320-927d-1cbd6ce1ddd5)
-
-![Screenshot_2025-01-22-19-34-58-840_com example flutter_custom_info_popup](https://github.com/user-attachments/assets/0274c4eb-9fbb-46af-beda-f2f8b641c3b5)
+<div style="display: flex; justify-content: center;">
+  <img src="https://github.com/user-attachments/assets/0ab0a4b5-acfc-4320-927d-1cbd6ce1ddd5" width="45%">
+  <img src="https://github.com/user-attachments/assets/0274c4eb-9fbb-46af-beda-f2f8b641c3b5" width="45%">
+</div>
 
 ## Installation
 
