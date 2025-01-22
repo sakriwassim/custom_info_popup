@@ -10,12 +10,17 @@ A Flutter package that provides a customizable popup widget to display additiona
 - Supports custom content inside the popup (text, images, or any widget).
 - Easily configurable splash radius, padding, and shadow color for a better user experience.
 
+## Demo
+![Screenrecorder-2025-01-22-19-34-32-178](https://github.com/user-attachments/assets/0ab0a4b5-acfc-4320-927d-1cbd6ce1ddd5)
+
+![Screenshot_2025-01-22-19-34-58-840_com example flutter_custom_info_popup](https://github.com/user-attachments/assets/0274c4eb-9fbb-46af-beda-f2f8b641c3b5)
+
 ## Installation
 
 To use this package, add it as a dependency in your `pubspec.yaml` file:
 
 dependencies:
-  custom_info_popup: ^0.0.1
+  custom_info_popup: ^0.0.2
 
 to `/example` folder.
 
@@ -45,9 +50,9 @@ class PopupDemoApp extends StatelessWidget {
             Center(
               child: CustomInfoPopup(
                 infoText:
-                'This is a basic popup!', // Info text that appears in the popup
+                    'This is a basic popup!', // Info text that appears in the popup
                 childToClickOn:
-                Text('Click Me'), // The clickable child widget (text here)
+                    Text('Click Me'), // The clickable child widget (text here)
                 childPopped: Column(
                   children: [
                     Text(
@@ -72,7 +77,7 @@ class PopupDemoApp extends StatelessWidget {
             CustomInfoPopup(
               infoText: 'Icon Button Popup!', // Info text for the popup
               childToClickOn:
-              Icon(Icons.info), // Icon button as the clickable widget
+                  Icon(Icons.info), // Icon button as the clickable widget
               childPopped: Column(
                 children: [
                   Text(
@@ -101,7 +106,7 @@ class PopupDemoApp extends StatelessWidget {
             CustomInfoPopup(
               infoText: 'Styled Text Popup!', // Info text with a custom style
               childToClickOn:
-              Text('Click Me'), // Text that opens the popup when clicked
+                  Text('Click Me'), // Text that opens the popup when clicked
               childPopped: Column(
                 children: [
                   Text(
@@ -110,7 +115,7 @@ class PopupDemoApp extends StatelessWidget {
                         color: Colors.blue,
                         fontSize: 20,
                         fontWeight:
-                        FontWeight.bold), // Custom text style inside popup
+                            FontWeight.bold), // Custom text style inside popup
                   ),
                 ],
               ),
@@ -129,7 +134,7 @@ class PopupDemoApp extends StatelessWidget {
             CustomInfoPopup(
               infoText: 'Image Popup!', // Info text with an image inside
               childToClickOn:
-              Icon(Icons.image), // Icon button triggers the popup
+                  Icon(Icons.image), // Icon button triggers the popup
               childPopped: Column(
                 children: [
                   Image.network(
@@ -152,13 +157,24 @@ class PopupDemoApp extends StatelessWidget {
             SizedBox(
               height: 50, // Spacer at the bottom
             ),
+            SizedBox(
+              width: 300,
+              child: Text('Created by : Wassim SAKRI \n Contact Us: sakriwassim@gmail.com '),
+            ),
           ],
         ),
       ),
     );
   }
 }
+
 ```
+
+## Support Me 💖
+If you like this package, you can support me:
+
+☕ [Buy Me a Coffee](https://buymeacoffee.com/wassimsarki)  
+💰 PayPal : wihedsakri@gmail.com
 
 ## Additional information
 
